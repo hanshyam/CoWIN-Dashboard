@@ -1,0 +1,125 @@
+@media screen and (max-width:900px){
+    .box{
+        width:47vw;
+    }
+    #about{
+        width:100vw;
+    }
+    #about .row{
+        flex-direction: column;
+    }
+    #about .new {
+        width:90vw;
+        margin:5vh auto;
+    }
+    #other-graphs{
+       flex-direction: column;
+    height: min-content;
+    }
+    #other-graphs .other-graph{
+        width: 92vw;
+        margin: 10px auto;
+    }
+    .other-graph .other-graph1{
+        width:80%;
+        height: auto;
+    }
+    .other-graph:nth-child(3) canvas{
+        width: auto;
+    }
+    .containers-fluid{
+        flex-direction: column;
+        padding:0 5vw;
+    }
+    .left-footer{
+        width:100%;
+        justify-content: space-between;
+        margin:20px 0;
+    }
+    .right-footer{
+        width:100%;
+        justify-content:space-between;
+        margin:20px 0;
+    }
+    #regiongraph .region_other_part{
+        flex-direction: column;
+        width: 90vw;
+        height: auto;
+    }
+    .region_other_part .right-region{
+        width: 100%;
+        /* width: 100vw; */
+        overflow: scroll;
+    }
+    .left-region{
+        width: 100%;
+    }
+    .left-region svg{
+        width:90vw;
+    }
+    svg g{
+        scale:0.5vw;
+    }
+    
+    #lastgraph{
+        flex-direction: column;
+        height: auto;
+    }
+    .aefi{
+        min-width: 93%;
+    }
+    .aefi canvas{
+        max-height: 50vh;
+    }
+    .ruralurbam{
+        min-width: 93%;
+    }
+    #rural-urban-graph{
+       max-height: 50vh;
+    }
+}
+@media screen and (max-width:650px) {
+    .row{
+        flex-direction: column;
+        justify-content:center;
+    }
+    .box{
+        width:90vw;
+        margin:10px auto;
+    }
+    .box canvas{
+       min-width: 100%;
+    }
+    .right-region .right-region-box{
+        min-width:1000px;
+    }
+    
+    .left-footer{
+        width:100%;
+        flex-direction: column;
+        justify-content: space-between;
+        margin:20px auto;
+    } 
+    .right-footer-up{
+        width:100%;
+        flex-direction: column;
+        justify-content: space-between;
+        margin:20px auto;
+    } 
+    .right-footer-down{
+        width:100%;
+        flex-direction: row;
+        justify-content: space-between;
+        margin:20px auto;
+        flex-wrap: wrap;
+    } 
+     .footer-one{
+        margin: 10px 0;
+     }
+     .footer2{
+        flex-direction: column-reverse;
+     }
+     .footer2 div{
+        margin:15px 0;
+     }
+}
